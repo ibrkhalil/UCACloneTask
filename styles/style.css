@@ -180,7 +180,7 @@ div.dropdown-multicol2{
   
   .carousel-caption{
     position: absolute;
-    display: block;
+    /* display: block; */
     top: 35%;
   }
   .carousel-content-1{
@@ -406,6 +406,10 @@ color: white;
     font-weight: bold;
     line-height: 2rem
 }
+.carousely-caption > img {
+    height: 100px;
+    width: 100px;
+}
 
 @media(max-width:767px) {
     .navbar{
@@ -416,6 +420,8 @@ color: white;
         height: 30%;
         
       }
+      
+      
       .controlsy{
         display: none;
         /* position: absolute;
